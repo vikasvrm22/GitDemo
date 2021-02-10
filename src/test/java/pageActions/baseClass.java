@@ -60,6 +60,9 @@ public class baseClass {
 	@BeforeSuite
 	public void setup() throws IOException {
 		System.out.println("Hello Git");
+		System.out.println("Hello Git1");
+		System.out.println("Hello Git2");
+		System.out.println("Hello Git3");
 		//log.debug("Hello1");
 		//log.getName();
 		// ProfilesIni profile = new ProfilesIni();
