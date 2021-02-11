@@ -15,6 +15,8 @@ public class TC1 extends baseClass {
 
 	@DataProvider(name = "pgdata")
 	public Object pgData() {
+		
+		System.out.println("Hello git from X");
 
 		return new Object[][] { { "Single" }, { "Single,Double" }, { "Single,Double,Triple" },
 				{ "Single,Double,Triple,Others" },
